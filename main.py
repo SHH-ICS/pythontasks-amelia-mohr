@@ -1,8 +1,9 @@
 # TASK: Update both functions to reverse the letters in the name and provide the square root of the users age.
+import math
 
-def reverseName(myName):
+def reverseName():
   # Write your function here
-  result = myName
+  result = 
   return result
   
 def rootAge(myAge):
