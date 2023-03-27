@@ -1,18 +1,16 @@
 # TASK: Update both functions to reverse the letters in the name and provide the square root of the users age.
 import math
 
-def reverseName():
-  # Write your function here
-  result = 
+def reverseName(me):
+  result = me[::-1]
   return result
-  
-def rootAge(myAge):
-  # Wrie your function here
-  result = myAge
+
+def rootAge(im):
+  result = math.sqrt(im)
   return result
   
 me = input("What is your name? ")
-im = input("What is your age? ")
+im = int(input("What is your age? "))
 
 print("Your name in reverse is: ",reverseName(me))
 print("The square root of your age is: ",rootAge(im))
